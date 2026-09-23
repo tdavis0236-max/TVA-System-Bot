@@ -48,7 +48,7 @@ export const botConfig = {
     testGuildId: process.env.TEST_GUILD_ID,
 
     // When true (or MAINTENANCE_MODE=true), only bot owners can run commands.
-    maintenanceMode: process.env.MAINTENANCE_MODE === "False",
+    maintenanceMode: process.env.MAINTENANCE_MODE === "true",
 
     // Command prefix for text-based commands (e.g., "!" for "!ping").
     // Supports both slash commands and prefix commands.
@@ -449,7 +449,7 @@ export const botConfig = {
   // Set any feature to `false` to disable it globally.
   features: {
     // Core systems.
-    economy: false,
+    economy: true,
     leveling: true,
     moderation: true,
     logging: true,
@@ -467,13 +467,13 @@ export const botConfig = {
     joinToCreate: true,
 
     // Utility/quality-of-life modules.
-    voice: false,
+    voice: true,
     search: true,
     tools: true,
     utility: true,
     community: true,
     fun: true,
-    music: false,
+    music: true,
   },
 };
 
