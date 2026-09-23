@@ -101,7 +101,7 @@ export async function createInitialHelpMenu(client) {
             },
             {
                 name: '\u200B',
-                value: `-# ${botName} is [open source](https://youtu.be/1jCZX8s3bJE?si=NPOYx-vxVE1I5vJK)`,
+                value: `-# ${botName} Will always be there to help.`,
                 inline: false,
             },
         ],
@@ -165,7 +165,7 @@ export default {
 
                 const closedEmbed = createEmbed({
                     title: "Help menu closed",
-                    description: "Help menu has been closed, use /help again.",
+                    description: "The TVA thanks you for your continued support. The Help menu has been closed; use /help again.",
                     color: "secondary",
                 });
 
