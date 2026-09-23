@@ -24,7 +24,7 @@ export const botConfig = {
     activities: [
       {
         name: "Custom Status", // required by Discord API, not shown in the client
-        state: "Hey there. I see you.",     // this is what people actually see
+        state: "For All Time. Always",     // this is what people actually see
         type: 4,               // Custom
       },
     ],
@@ -434,13 +434,13 @@ export const botConfig = {
   // GENERIC BOT MESSAGES
   // =========================
   messages: {
-    noPermission: "You do not have permission to use this command.",
+    noPermission: "Miss Minutes: Aw look, you do not have permission to use this command.",
     cooldownActive: "Please wait {time} before using this command again.",
     errorOccurred: "An error occurred while executing this command.",
     missingPermissions:
-      "I am missing required permissions to perform this action.",
+      "Hm it looks like the TVAs missing required permissions to perform this action.",
     commandDisabled: "This command has been disabled.",
-    maintenanceMode: "The bot is currently in maintenance mode.",
+    maintenanceMode: "Uh oh. Sorry, but a TVA technician has put this bot in maintenance mode. Please try again later.",
   },
 
   // =========================
@@ -449,7 +449,7 @@ export const botConfig = {
   // Set any feature to `false` to disable it globally.
   features: {
     // Core systems.
-    economy: true,
+    economy: false,
     leveling: true,
     moderation: true,
     logging: true,
@@ -458,7 +458,7 @@ export const botConfig = {
     // Community engagement systems.
     tickets: true,
     giveaways: true,
-    birthday: true,
+    birthday: false,
     counter: true,
 
     // Security and self-service systems.
@@ -467,13 +467,13 @@ export const botConfig = {
     joinToCreate: true,
 
     // Utility/quality-of-life modules.
-    voice: true,
+    voice: false,
     search: true,
     tools: true,
     utility: true,
     community: true,
     fun: true,
-    music: true,
+    music: false,
   },
 };
 
